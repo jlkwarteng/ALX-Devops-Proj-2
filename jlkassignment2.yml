@@ -247,7 +247,7 @@ Resources:
       IamInstanceProfile: !Ref EC2InstanceProfileWiths3
       SecurityGroups:
         - Ref: WebServerSecGroup
-      InstanceType: t3.small
+      InstanceType: t3.medium
       BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:
